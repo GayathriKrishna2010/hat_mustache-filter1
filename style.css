@@ -1,0 +1,22 @@
+.heading {
+    background-color:rgb(221, 151, 248);
+    font-size:35px !important;
+    font-weight:bold;
+}
+.btn_take {
+    background-color:aqua;
+    font-weight:bold;
+    font-size:20px;
+}
+.btn_take:hover {
+    background-color:antiquewhite;
+}
+canvas {
+    animation-name:example;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes example {
+    from{box-shadow: 1px 1px 50px rgb(0, 0, 0);}
+    to{box-shadow:1px 1px 50px rgb(255, 255, 255)};
+}
